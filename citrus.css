@@ -24,7 +24,6 @@ html, body {
 .h-1000 {height:1000px;}
 .responsive:after {content:'';display:block;padding-bottom:100%;}
 .responsive * {position:absolute;width:100%;height:100%;}
-.circle {border-radius:100%;}
 
 @media (max-width:600px) {
     .d-0.column {display:none;}
@@ -209,6 +208,8 @@ input[type="submit"]:hover {background-color:#222;color:white;}
 .right {float:right;}
 .align-left {text-align:left;}
 .align-right {text-align:right;}
-.h-center {text-align:center;width:100%;}
+.align-center {text-align:center;width:100%;}
+.h-center {display:block;
 .v-center {position:relative;}
 .v-center * {position: absolute; top: 50%; transform: translateY(-50%);}
+.circle {border-radius:100%;}
